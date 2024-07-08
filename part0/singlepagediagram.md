@@ -24,6 +24,7 @@ sequenceDiagram
   activate server
   server-->>browser: [{"content": "hola", "date":"2024-07-07"},...]
 
+  Note right of browser: The callback function is executed by the broswer that renders the notes 
 
   
   
